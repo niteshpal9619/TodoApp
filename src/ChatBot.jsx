@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function ChatBot({ onClose }) {
   const [messages, setMessages] = useState([
-    { from: "bot", text: "Hi! Welcome to BotPenguin. I’ll be assisting you here today." },
     { from: "bot", text: "How can I help you today?" }
   ]);
   const [input, setInput] = useState("");
