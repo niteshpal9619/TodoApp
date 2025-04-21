@@ -130,3 +130,25 @@ h2 {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.summary-card {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.task {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: gray;
+}
